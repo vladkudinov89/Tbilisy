@@ -668,10 +668,16 @@ position: relative;
 
 .bg-footer{
 	background-color: #2f3437;
-	height: 135px;
+	
+}
+
+.footer{
+
+padding: 25px 0;
 }
 
 .footer ul{
+	
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -704,9 +710,22 @@ list-style-image: url(../img/fotter-arrow-arrow.png);
 }
 
 
+.r-coloms p:nth-child(2){
+	padding-bottom: 10px;
+}
+
+.f-a a{
+	text-decoration: underline;
+}
+
+.f-st a{
+	text-decoration: underline;
+}
+
 
 .social-footer{
 	display: flex;
+	padding-bottom: 20px;
 }
 
 .soc-f-t{
@@ -823,6 +842,8 @@ list-style-image: url(../img/fotter-arrow-arrow.png);
 
 
 
+
+
  @media only screen and (max-width: 1023px){
 .investing ul{
 	justify-content: flex-start;
@@ -839,8 +860,20 @@ list-style-image: url(../img/fotter-arrow-arrow.png);
   	.blog-a img{
 	width: 100%;
 }
+	
+	.footer ul{
+		flex-direction: column;
+		align-items: center;
+	}
 
+	.footer .f-menu-1{
+		padding-top: 20px;
+	}
 
+	.r-coloms{
+		align-items:center;
+		padding-top: 20px;
+	}
     
 
  }
