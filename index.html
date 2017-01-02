@@ -7,8 +7,29 @@
 	<title>Tbiisi</title>
 <link rel="stylesheet" type="text/css" href="style/flexboxgrid.css">
 <link rel="stylesheet" type="text/css" href="style/style.css">	
+ <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		
+		$('.burg').click(function(){
+                
+				$('.nav-burger').toggleClass('active');
+				$('.burg').toggleClass('b-margin');
+                 
+            });	
+		
+        });
+		
+	</script>
+ 
 </head>
 <body>
+
+
+
+
 
 	<div class="container">
 
@@ -37,8 +58,30 @@
 				<a class="soc-top-f" href="#"></a>
 				<a class="soc-top-t" href="#"></a>
 			</div>
+
+		<div class="burger-menu">
+			<button class="burg"><span></span><span></span><span></span></button>
+					<div class="nav-burger ">
+						<ul>
+							<li><a href="#">О Грузии</a></li>
+							<li><a href="#">Инвестиционные<br>возможности</a></li>
+							<li><a href="#">Доходная<br>недвижимость</a></li>
+							<li><a href="#">Готовые<br>проекты</a></li>
+							<li><a href="#">Блог</a></li>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+			</div>
+
+
+			 
+
 		</div>
-	</div>
+
+</div>
+		
+
 
 	<div class="container-fluid bg-top-slider">
 		
